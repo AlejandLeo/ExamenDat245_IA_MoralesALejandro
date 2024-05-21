@@ -1,0 +1,747 @@
+@relation 'mxmh_survey_results1-weka.filters.unsupervised.attribute.NumericCleaner-min50.0-min-default50.0-max220.0-max-default220.0-closeto0.0-closeto-default0.0-closeto-tolerance1.0E-6-R10-decimals-1-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.GreedyStepwise -T -1.7976931348623157E308 -N -1 -num-slots 1'
+
+@attribute Age numeric
+@attribute 'While working' {Yes,No}
+@attribute 'Fav genre' {Latin,Rock,'Video game music',Jazz,R&B,'K pop',Country,EDM,'Hip hop',Pop,Rap,Classical,Metal,Folk,Lofi,Gospel}
+@attribute Exploratory {Yes,No}
+@attribute Anxiety numeric
+@attribute Depression numeric
+@attribute 'Music effects' {'No effect',Improve,Worsen}
+
+@data
+18,Yes,Latin,Yes,3,0,'No effect'
+63,Yes,Rock,Yes,7,2,'No effect'
+18,No,'Video game music',No,7,7,'No effect'
+61,Yes,Jazz,Yes,9,7,Improve
+18,Yes,R&B,Yes,7,2,Improve
+18,Yes,Jazz,Yes,8,8,Improve
+18,Yes,'Video game music',Yes,4,8,Improve
+21,Yes,'K pop',Yes,5,3,Improve
+19,Yes,Rock,No,2,0,Improve
+18,Yes,R&B,Yes,2,2,Improve
+18,Yes,Country,Yes,7,7,'No effect'
+19,Yes,EDM,Yes,1,0,Improve
+25.206803,Yes,'Hip hop',Yes,9,3,Improve
+19,Yes,Country,Yes,2,1,Improve
+18,Yes,Jazz,Yes,6,4,Improve
+17,No,Pop,Yes,7,5,Worsen
+16,Yes,'Hip hop',Yes,8,8,Improve
+16,Yes,'Hip hop',Yes,5,7,Improve
+17,Yes,Rap,Yes,7,5,Improve
+15,No,'Hip hop',No,7,3,Improve
+15,Yes,'Hip hop',Yes,6,9,Improve
+17,Yes,Rap,Yes,10,10,Improve
+19,Yes,R&B,Yes,6,7,Improve
+18,Yes,Pop,No,3,3,'No effect'
+16,Yes,Rock,Yes,10,6,Improve
+18,No,Pop,Yes,7,4,Improve
+14,Yes,Rock,Yes,8,6,Improve
+18,Yes,Pop,No,3,2,Improve
+17,Yes,Pop,Yes,6,6,Improve
+17,Yes,Pop,Yes,8,2,Improve
+20,Yes,Rock,Yes,7,7,Improve
+19,Yes,Classical,No,4,4,'No effect'
+19,Yes,Metal,Yes,9,8,Improve
+17,No,Rock,Yes,5,6,Improve
+16,Yes,Classical,No,0,0,'No effect'
+18,Yes,Pop,Yes,3,2,Improve
+21,Yes,Pop,No,6,8,Improve
+17,Yes,Pop,Yes,2,0,'No effect'
+26,No,Rock,No,9,8,'No effect'
+20,Yes,EDM,Yes,7,2,Improve
+23,Yes,'Video game music',Yes,4,2,Improve
+18,Yes,Rock,Yes,7,6,Improve
+37,No,'Video game music',Yes,3,2,'No effect'
+17,Yes,Classical,Yes,6,6,Improve
+18,Yes,Metal,Yes,1,0,'No effect'
+17,Yes,Folk,No,7,3,Improve
+36,No,Classical,No,8,9,'No effect'
+24,Yes,Rock,Yes,9,6,Improve
+18,Yes,Metal,Yes,7,9,Improve
+19,Yes,Pop,No,7,4,'No effect'
+17,Yes,EDM,Yes,0,0,Improve
+16,Yes,'K pop',Yes,7,8,Improve
+23,No,Rap,No,10,6,'No effect'
+23,Yes,Pop,Yes,3,7,'No effect'
+22,Yes,Rock,Yes,8,7,Improve
+16,Yes,Classical,Yes,0,0,Improve
+18,Yes,Rock,Yes,8,6,'No effect'
+42,Yes,Rock,No,9,0,'No effect'
+23,Yes,Folk,Yes,6,4,Improve
+23,Yes,'Video game music',No,7,0,Improve
+19,No,'K pop',Yes,10,1,Improve
+22,No,Rock,Yes,8,7,Improve
+15,Yes,Rock,No,3,2,Improve
+25,No,Metal,No,5,5,'No effect'
+32,Yes,Rock,No,10,10,Worsen
+36,Yes,Metal,Yes,5,4,Improve
+24,No,Rock,Yes,0,0,'No effect'
+29,No,'Hip hop',Yes,8,8,Improve
+41,Yes,Metal,Yes,10,7,Improve
+36,Yes,Rock,Yes,7,3,Improve
+19,Yes,Rock,Yes,8,7,Improve
+31,Yes,Rock,Yes,10,2,'No effect'
+16,Yes,Rock,No,9,8,Improve
+26,Yes,'Hip hop',Yes,6,3,Improve
+22,No,'Hip hop',No,7,7,'No effect'
+16,Yes,Jazz,Yes,7,7,Improve
+17,Yes,Metal,Yes,4,1,Improve
+19,Yes,R&B,Yes,7,2,Improve
+18,No,EDM,No,9,0,Improve
+18,Yes,'Hip hop',Yes,2,7,Improve
+19,No,Rock,Yes,10,8,Improve
+19,Yes,Jazz,Yes,3,0,Improve
+22,Yes,'K pop',Yes,7,8,'No effect'
+16,Yes,Rock,Yes,2,1,Improve
+19,Yes,R&B,Yes,5,4,Improve
+37,Yes,Rock,No,9,10,'No effect'
+14,Yes,Jazz,No,2,0,Improve
+33,No,Metal,No,5,2,Improve
+26,No,R&B,No,3,2,'No effect'
+32,Yes,'Hip hop',No,2,0,'No effect'
+30,Yes,Metal,Yes,7,6,'No effect'
+43,Yes,'Video game music',Yes,5,4,'No effect'
+24,Yes,Classical,Yes,4,6,Improve
+36,Yes,Rock,Yes,6,2,Improve
+19,Yes,'Video game music',Yes,8,2,Improve
+22,Yes,Metal,Yes,9,6,Improve
+20,No,EDM,Yes,0,3,Improve
+31,No,Rock,Yes,8,9,Improve
+19,Yes,Metal,Yes,4,1,Improve
+15,Yes,Rock,No,8,7,Improve
+18,No,Metal,Yes,3,4,Improve
+25,No,Classical,No,1,1,Improve
+17,Yes,Metal,Yes,10,8,'No effect'
+28,No,Rock,Yes,6,6,'No effect'
+20,Yes,Rock,Yes,6,7,Improve
+21,Yes,Metal,Yes,8,4,'No effect'
+41,Yes,Pop,No,9,7,'No effect'
+20,Yes,Pop,Yes,7,4,Improve
+34,Yes,Metal,Yes,6,7,'No effect'
+21,Yes,Metal,Yes,10,0,Improve
+23,Yes,Metal,Yes,6,3,Improve
+16,No,Pop,No,7,5,Improve
+19,Yes,Pop,Yes,7,10,Improve
+22,Yes,Rock,Yes,8,6,Improve
+19,Yes,'K pop',Yes,4,3,Improve
+23,Yes,'Hip hop',Yes,7,6,Improve
+23,No,Metal,No,7,3,Improve
+22,No,EDM,Yes,2,7,Improve
+17,Yes,Rock,Yes,7,8,Improve
+28,No,Folk,Yes,4,7,Improve
+23,No,Rock,Yes,7,8,'No effect'
+19,Yes,Rock,Yes,5,2,Improve
+17,Yes,'Hip hop',Yes,10,7,Improve
+21,No,Rock,Yes,6,5,'No effect'
+29,Yes,Jazz,Yes,7,2,Improve
+22,No,EDM,No,4,7,Improve
+18,Yes,Pop,Yes,4,5,Improve
+13,Yes,Rock,Yes,7,10,Worsen
+24,No,Metal,Yes,6,4,Improve
+35,Yes,Rock,Yes,4,1,'No effect'
+29,Yes,'Video game music',Yes,6,6,Improve
+28,Yes,Rock,No,10,8,Improve
+32,Yes,Pop,Yes,10,8,Improve
+32,No,EDM,Yes,3,6,'No effect'
+21,Yes,Rock,Yes,8,9,Improve
+18,Yes,'Video game music',No,8,3,Improve
+19,Yes,Classical,Yes,3,3,Improve
+18,Yes,Pop,Yes,6,5,Improve
+16,Yes,Pop,No,0,0,'No effect'
+25,Yes,Pop,No,6,5,Improve
+17,Yes,Lofi,Yes,3,8,Improve
+16,Yes,Rap,Yes,1,8,'No effect'
+27,Yes,Metal,Yes,5,6,Improve
+53,Yes,Pop,Yes,0,0,Improve
+25,Yes,EDM,No,0,8,Improve
+34,No,Metal,No,3,7,Improve
+22,Yes,Jazz,Yes,8,8,Improve
+17,Yes,Jazz,Yes,5,2,Improve
+26,Yes,Folk,Yes,8,8,Improve
+19,Yes,EDM,Yes,6,8,Improve
+21,Yes,Pop,Yes,6,8,Worsen
+32,Yes,Rock,Yes,6,6,Improve
+21,Yes,Rock,No,9,10,'No effect'
+25,No,Pop,No,7,7,Improve
+26,No,Rock,No,10,7,'No effect'
+21,Yes,Metal,Yes,1,3,'No effect'
+17,Yes,Pop,No,5,3,Improve
+28,Yes,Rock,Yes,6,8,Improve
+41,Yes,Pop,Yes,7,2,Improve
+18,Yes,Metal,Yes,6,9,Improve
+22,No,R&B,No,1,1,'No effect'
+18,Yes,'K pop',No,0,2,?
+49,Yes,EDM,Yes,8,8,Improve
+21,Yes,Metal,Yes,3,3,'No effect'
+27,Yes,Metal,Yes,8,8,Improve
+19,No,Metal,Yes,6,4,'No effect'
+27,Yes,Metal,Yes,1,0,Improve
+27,Yes,Rock,No,5,5,Improve
+19,Yes,'K pop',Yes,8,9,?
+42,Yes,Rock,No,8,8,Improve
+60,Yes,Gospel,No,3,0,Improve
+19,Yes,Metal,No,0,5,'No effect'
+20,Yes,Pop,Yes,6,3,Improve
+28,No,Metal,No,1,7,Improve
+16,No,'Video game music',Yes,4,2,'No effect'
+18,Yes,R&B,No,5,6,'No effect'
+34,Yes,Rock,Yes,1,0,'No effect'
+18,Yes,Pop,Yes,8,6,Improve
+21,Yes,Folk,Yes,9,4,Improve
+38,No,Rock,Yes,4,6,Improve
+17,Yes,Rock,No,7,3,Improve
+35,No,Pop,No,10,3,'No effect'
+21,Yes,Rock,No,8,8,Improve
+25,Yes,R&B,No,7,6,Improve
+18,Yes,'K pop',Yes,7,2,Improve
+16,No,Pop,Yes,10,3.5,Improve
+19,Yes,Pop,Yes,7,5,Improve
+31,Yes,Classical,No,6,8,Improve
+26,Yes,Rock,No,2,9,'No effect'
+16,Yes,Rock,No,7,4,Improve
+26,Yes,Rock,Yes,7,5,Improve
+17,Yes,R&B,Yes,6,1,Improve
+22,Yes,'Video game music',Yes,3,6,Improve
+20,Yes,R&B,Yes,9,10,Improve
+30,No,Rock,Yes,8,5,Improve
+26,Yes,Pop,No,8,7,Improve
+19,Yes,Rock,Yes,9,9,'No effect'
+21,Yes,Country,Yes,9,8,Improve
+33,Yes,Rock,Yes,9,3,Improve
+28,Yes,Rock,Yes,10,8,Improve
+25,Yes,Rock,Yes,9,6,Improve
+22,Yes,Pop,No,7,7,Improve
+19,Yes,Rock,Yes,9,10,Improve
+44,Yes,Folk,Yes,9,9,Improve
+22,Yes,Rock,No,9,10,Improve
+26,Yes,Metal,Yes,10,9,Improve
+23,Yes,Classical,No,6,5,Improve
+17,No,R&B,No,8,6,Improve
+42,No,Metal,Yes,8,3,Improve
+30,No,Rock,Yes,4,2,Improve
+35,Yes,Pop,Yes,2,1,'No effect'
+20,No,Rock,Yes,10,10,Improve
+18,Yes,Rap,Yes,8,9,Improve
+21,No,Pop,No,4,9,'No effect'
+19,Yes,Rock,Yes,4,2,Improve
+37,Yes,Rock,Yes,9,2,Improve
+31,Yes,Metal,Yes,8,6,Improve
+29,Yes,Folk,Yes,6,5,Improve
+20,Yes,Rock,Yes,8,5,Improve
+36,Yes,'Video game music',No,7,6,'No effect'
+18,Yes,Rock,Yes,10,2,Improve
+18,Yes,'K pop',Yes,6,0,Improve
+25,Yes,Pop,No,2,0,Improve
+18,Yes,'K pop',Yes,3,7,Improve
+31,Yes,Pop,Yes,9,0,Improve
+17,Yes,Pop,Yes,5,4,Improve
+21,Yes,Folk,No,8,4,Improve
+30,No,Country,No,8,10,Improve
+40,Yes,Metal,Yes,3,6,'No effect'
+64,Yes,Rock,No,4,4,Improve
+14,Yes,Rock,Yes,7,5,Improve
+26,Yes,Rock,Yes,3,2,'No effect'
+35,Yes,Country,Yes,9,9,Improve
+33,No,Rock,No,3,10,'No effect'
+30,Yes,Folk,Yes,9,0,'No effect'
+31,No,Metal,Yes,7,6,Improve
+27,Yes,Folk,Yes,0,9,Improve
+53,No,Pop,Yes,2,2,'No effect'
+23,Yes,Metal,Yes,6,9,Improve
+25,Yes,EDM,Yes,6,4,Improve
+16,Yes,'K pop',Yes,8,9,Improve
+18,Yes,Rock,Yes,6,7,Improve
+29,Yes,Classical,Yes,7,2,Improve
+31,Yes,EDM,Yes,8,6,'No effect'
+31,No,Rock,No,3,10,Worsen
+38,Yes,Pop,Yes,9,4,Improve
+17,No,Classical,Yes,7,9,Worsen
+25,No,EDM,No,10,3,Improve
+20,No,Metal,No,0,0,'No effect'
+15,Yes,EDM,No,9,6,'No effect'
+16,Yes,Lofi,Yes,7,1,Improve
+20,Yes,EDM,No,9,7,Improve
+23,Yes,Rap,Yes,3,1,Improve
+22,Yes,'Hip hop',Yes,6,6,Improve
+15,Yes,Rock,Yes,10,6,Improve
+17,Yes,'Video game music',No,6,3,Improve
+22,Yes,'Video game music',Yes,3,3,'No effect'
+21,Yes,Metal,Yes,9,10,'No effect'
+19,Yes,Pop,No,7,5,'No effect'
+32,No,Classical,Yes,3,0,'No effect'
+34,No,Rock,No,9,9,Improve
+18,Yes,Metal,Yes,5,7,Improve
+21,Yes,Country,Yes,0,8,Improve
+20,No,Country,Yes,8,4,Improve
+19,Yes,Country,Yes,7,2,'No effect'
+25,No,Pop,No,9,9,'No effect'
+31,Yes,Classical,Yes,5,7,Improve
+21,Yes,Pop,Yes,5,1,Improve
+31,No,Folk,Yes,4,1,Improve
+20,No,Pop,Yes,3,5,Improve
+19,Yes,Rock,Yes,2,2,Improve
+19,Yes,EDM,Yes,0,1,Improve
+23,Yes,Metal,Yes,7,8,Improve
+24,Yes,'Video game music',Yes,6,4,Improve
+20,No,Rock,No,5,6,Improve
+15,No,'Video game music',No,6,6,'No effect'
+17,Yes,'Hip hop',No,8,9,Improve
+20,No,'Video game music',No,8,4,Worsen
+14,Yes,'Video game music',Yes,8,6,Improve
+24,Yes,Metal,Yes,8,8,Improve
+14,Yes,'Video game music',No,5,2,Improve
+23,Yes,Rock,Yes,6,8,'No effect'
+28,Yes,Rock,No,7,5,'No effect'
+22,Yes,Jazz,Yes,8,8,Improve
+25,Yes,Rock,Yes,10,2,Improve
+27,Yes,Pop,Yes,8,7,Improve
+18,Yes,Rock,Yes,8,8,Improve
+17,Yes,Pop,Yes,8,10,Improve
+23,Yes,Rock,No,6,1,'No effect'
+40,Yes,Rock,Yes,0,4,Improve
+27,Yes,Rock,Yes,8,10,'No effect'
+18,No,Pop,Yes,3,2,'No effect'
+16,No,Metal,Yes,5,3,Improve
+18,No,Rock,Yes,8,9,Improve
+23,No,Jazz,No,10,3,'No effect'
+15,Yes,Metal,Yes,6,7,Improve
+20,Yes,Metal,Yes,7,4,Improve
+16,Yes,Rock,Yes,9,8,Improve
+16,No,Rock,No,8,0,Improve
+20,Yes,Country,Yes,8,9,'No effect'
+33,Yes,Metal,Yes,7,2,Improve
+22,Yes,Rock,Yes,10,10,Improve
+21,Yes,'Hip hop',Yes,8,8,Improve
+21,Yes,Metal,Yes,8,7,Improve
+29,Yes,Rock,Yes,8,7,Improve
+56,Yes,Pop,No,6,5,'No effect'
+17,Yes,Pop,Yes,7,6,Improve
+22,Yes,Pop,No,7,4,Improve
+26,Yes,Pop,Yes,8,7,'No effect'
+30,Yes,EDM,Yes,4,4,Improve
+49,Yes,Folk,Yes,0,0,'No effect'
+22,Yes,EDM,Yes,6,4,Improve
+32,No,Rock,Yes,4,7,Improve
+32,No,Rock,No,8,4,'No effect'
+22,Yes,Country,Yes,5,5,Improve
+17,Yes,Rock,Yes,0,8,Improve
+21,Yes,Rock,Yes,7,4,Improve
+17,Yes,Rock,Yes,8,7,'No effect'
+25,Yes,Metal,No,9,8,Improve
+15,Yes,Rock,Yes,8,6,Improve
+13,Yes,Rap,Yes,7,2,Improve
+38,Yes,Rock,No,6,7,'No effect'
+23,No,Rock,Yes,7,6,Improve
+17,Yes,Pop,Yes,1,1,Improve
+59,Yes,Pop,Yes,1,1,Improve
+22,Yes,Pop,Yes,2,7,Improve
+17,Yes,Pop,Yes,6,2,'No effect'
+27,No,Pop,No,7,7,'No effect'
+23,Yes,'Video game music',No,8,7,'No effect'
+15,Yes,Rock,No,8,3,Improve
+22,Yes,EDM,Yes,5,4,Improve
+23,Yes,Lofi,Yes,7,10,Improve
+19,Yes,Country,Yes,7,6,Improve
+32,Yes,Rock,No,8,7,Improve
+40,Yes,Rock,Yes,10,7,'No effect'
+21,Yes,Country,Yes,6,5,Improve
+21,Yes,Rock,Yes,8,7,'No effect'
+23,Yes,'Video game music',Yes,10,7,Worsen
+21,Yes,EDM,No,10,10,?
+35,No,Folk,Yes,8,2,'No effect'
+18,No,'Hip hop',No,3,7,Improve
+21,Yes,Pop,Yes,9,7,Improve
+22,Yes,'Video game music',No,5,3,Improve
+23,Yes,Rock,Yes,10,7,Improve
+13,Yes,Folk,No,8,0,Improve
+19,Yes,'K pop',Yes,6,0,Improve
+33,Yes,Rock,No,7,9,Improve
+18,Yes,Jazz,Yes,3,2,Improve
+17,Yes,Classical,Yes,4,2,Improve
+16,Yes,EDM,Yes,4,2,Improve
+18,No,Rock,Yes,5,3,'No effect'
+19,Yes,'K pop',Yes,4,2,Improve
+15,No,Rap,Yes,4,0,'No effect'
+17,Yes,Pop,Yes,7,6,Improve
+25,Yes,Lofi,Yes,7,8,Improve
+24,Yes,'Video game music',No,3,4,Improve
+23,Yes,Jazz,Yes,9,7,Improve
+16,Yes,EDM,Yes,10,9,Improve
+25,Yes,Metal,Yes,9,9,Improve
+16,Yes,EDM,Yes,8,10,Improve
+20,No,Metal,Yes,8,9,Improve
+17,Yes,Metal,Yes,5,6,Improve
+29,Yes,Metal,Yes,9,3,Improve
+20,Yes,'Hip hop',Yes,3,2,Improve
+16,Yes,Folk,Yes,7,7,Improve
+21,Yes,Rock,Yes,7,9,Improve
+16,Yes,Rock,Yes,5,1,Improve
+43,Yes,Pop,Yes,3,3,Improve
+32,Yes,Classical,Yes,8,7,Improve
+10,Yes,Pop,Yes,8,2,Improve
+27,Yes,Metal,Yes,4,0,Improve
+24,Yes,Classical,No,9,6,Improve
+18,Yes,'Hip hop',Yes,10,7,Improve
+17,Yes,Rock,No,8,7,Improve
+19,Yes,Metal,Yes,1,0,Improve
+16,Yes,Rock,Yes,5,7,Improve
+64,Yes,Rock,Yes,7,6,Improve
+33,Yes,Lofi,Yes,8,8,Improve
+32,Yes,Rock,No,2,2,'No effect'
+15,Yes,Pop,Yes,6,0,Improve
+27,Yes,Metal,Yes,2,0,Improve
+20,Yes,Rock,Yes,6,2,'No effect'
+23,Yes,Pop,Yes,6,1,Improve
+19,No,Classical,Yes,7,6,Improve
+12,Yes,Classical,No,0,0,Improve
+16,Yes,Classical,No,9,7,'No effect'
+17,No,'Video game music',No,10,0,'No effect'
+14,Yes,Pop,Yes,6,6,Improve
+32,Yes,Metal,Yes,4,3,Improve
+20,Yes,Pop,No,6,2,'No effect'
+54,Yes,Classical,No,2,2,Improve
+18,Yes,'K pop',Yes,7,4,Improve
+14,Yes,Classical,Yes,7,5,Improve
+13,Yes,Classical,Yes,8,5,Improve
+19,Yes,Country,Yes,7,5,Improve
+14,Yes,Classical,Yes,6,8,Improve
+14,No,Classical,Yes,1,2,Improve
+18,Yes,Rap,Yes,3,2,Improve
+15,Yes,Folk,Yes,6,7,Improve
+24,Yes,Classical,No,6,7,'No effect'
+17,Yes,Pop,No,9,8,Improve
+44,No,Rock,Yes,7,7,Improve
+23,No,Rock,Yes,1,0,Improve
+21,No,Rap,No,4,3,Improve
+57,No,R&B,Yes,2,0,Improve
+23,Yes,Rock,Yes,0,5,'No effect'
+18,Yes,Pop,No,8,7,Improve
+26,Yes,'Hip hop',Yes,5,10,'No effect'
+13,Yes,Classical,No,8,7,Improve
+15,Yes,Classical,Yes,9,6,Improve
+57,Yes,Rock,Yes,2,2,'No effect'
+12,Yes,Classical,Yes,7,8,Improve
+26,Yes,EDM,No,10,10,'No effect'
+17,Yes,Country,No,8,5,Improve
+17,Yes,Classical,Yes,7,8,Improve
+69,Yes,Classical,Yes,1,1,Improve
+17,Yes,R&B,Yes,9,10,'No effect'
+32,Yes,Jazz,Yes,9,4,Improve
+22,No,Classical,Yes,8,2,'No effect'
+38,No,Metal,Yes,1,1,Improve
+18,Yes,EDM,Yes,10,9,Improve
+14,Yes,Classical,Yes,3,0,Improve
+14,Yes,'Video game music',Yes,4,0,Improve
+19,Yes,Metal,Yes,2,3,Improve
+20,Yes,Classical,Yes,2,3,Improve
+18,No,Rock,Yes,8,4,Improve
+30,Yes,'K pop',Yes,10,10,Improve
+31,Yes,Classical,Yes,8,8,Improve
+72,Yes,Rock,No,0,1,Improve
+73,Yes,R&B,Yes,5,4,Improve
+16,Yes,Pop,Yes,7.5,5,Improve
+19,No,Rap,Yes,3,3,Improve
+16,Yes,Classical,No,7,5,Improve
+12,Yes,Classical,Yes,8,0,Improve
+39,Yes,'Hip hop',Yes,6,4,Improve
+15,Yes,'K pop',Yes,8,8,'No effect'
+14,Yes,R&B,Yes,10,8,Improve
+21,No,Country,No,3,0,Improve
+38,Yes,'Video game music',No,5,5,Worsen
+23,No,'Hip hop',Yes,7,7,Improve
+16,No,EDM,Yes,7,4,Improve
+21,Yes,Folk,No,3,3,?
+13,Yes,Rap,Yes,4,0,Worsen
+16,Yes,Rock,Yes,3,0,Improve
+18,Yes,Rock,Yes,5,1,Improve
+21,Yes,Metal,Yes,10,6,Improve
+17,Yes,Classical,Yes,7,5,'No effect'
+24,Yes,Rock,Yes,7,7,'No effect'
+14,Yes,Pop,Yes,6,0,Improve
+25,Yes,Rock,Yes,6,2,Improve
+22,Yes,Lofi,Yes,7,6,Improve
+20,Yes,Rock,Yes,5,7,'No effect'
+23,Yes,Pop,No,7,6,Improve
+61,Yes,Rock,Yes,2,2,Improve
+24,Yes,'Video game music',No,9,5,Improve
+34,No,Rock,No,3,7,Worsen
+49,No,Pop,Yes,4,5,Improve
+33,Yes,Rock,Yes,1,0,Improve
+22,No,Metal,No,3,2,'No effect'
+38,Yes,Metal,Yes,1,6,Improve
+23,No,'Hip hop',Yes,8,10,'No effect'
+34,No,'Video game music',No,8,10,'No effect'
+40,Yes,Metal,Yes,3,0,'No effect'
+27,No,'Hip hop',Yes,3,4,Improve
+54,Yes,Rock,Yes,2,1,Improve
+16,No,Rock,Yes,0,0,'No effect'
+23,Yes,'Video game music',No,8,8,Improve
+35,No,Country,Yes,1,1,'No effect'
+22,Yes,Folk,Yes,8,7,Improve
+41,No,Metal,Yes,6,5,'No effect'
+63,Yes,Rock,Yes,5,4,Improve
+28,No,Rock,Yes,3,1,'No effect'
+22,Yes,Country,Yes,4,8,Improve
+58,Yes,Rock,Yes,5,6,Improve
+58,Yes,Classical,Yes,0,0,Improve
+67,Yes,Rock,No,7,6,Improve
+70,Yes,Country,No,8,5,Improve
+60,Yes,Rock,No,4,4,Improve
+15,Yes,Pop,Yes,9,8,Improve
+18,Yes,EDM,Yes,5,5,Improve
+58,Yes,'Hip hop',Yes,4,6,Improve
+28,Yes,Lofi,Yes,4,8,Improve
+22,Yes,Lofi,Yes,9,10,Improve
+49,No,Classical,No,3,2,Improve
+20,Yes,Rock,Yes,6,2,Improve
+55,Yes,Rock,No,2,0,'No effect'
+48,Yes,Metal,No,10,8,Improve
+14,Yes,'K pop',Yes,4,4,Improve
+18,Yes,Pop,Yes,7,8,Improve
+25,Yes,Pop,Yes,7,6,Improve
+71,Yes,Gospel,No,1,0,Improve
+60,No,Gospel,No,6,2,Improve
+18,Yes,'Video game music',No,4,5,'No effect'
+19,Yes,'Hip hop',No,10,7,Improve
+74,No,Pop,No,4,2,Improve
+36,Yes,'Hip hop',No,7,6,Improve
+14,Yes,Lofi,Yes,3,2,Improve
+20,No,'Hip hop',Yes,10,7,Improve
+15,Yes,'K pop',Yes,4,0,'No effect'
+19,Yes,Rock,No,7,7,Improve
+29,Yes,EDM,No,6,7,Improve
+24,Yes,Metal,Yes,7,6,Improve
+18,Yes,Pop,Yes,6,5,Improve
+21,Yes,Rock,Yes,10,10,Improve
+19,Yes,'K pop',Yes,7,6,Improve
+25,No,'Video game music',Yes,3,0,Improve
+28,Yes,Rock,Yes,8,2,'No effect'
+27,Yes,Rap,Yes,7,6,Improve
+60,No,Rock,Yes,3,2,'No effect'
+25,No,Metal,No,8,2,Improve
+60,Yes,Rock,No,7,7,Improve
+43,No,Country,No,5,1,Improve
+51,Yes,Rock,No,1,2,'No effect'
+63,Yes,Rock,Yes,2,1,Improve
+64,Yes,Classical,No,5,2,Improve
+22,Yes,Pop,No,7,2,Improve
+24,Yes,Folk,No,10,10,Improve
+19,Yes,Pop,Yes,7,2,Improve
+56,Yes,Pop,Yes,6,4,Improve
+20,No,EDM,Yes,5,9,Improve
+19,Yes,'Video game music',No,7,5,Improve
+20,Yes,Jazz,Yes,7,6,Improve
+60,Yes,Rock,No,0,0,Improve
+65,Yes,R&B,No,3,5,'No effect'
+28,No,Metal,Yes,8,8,Improve
+18,Yes,EDM,No,8,7,Improve
+42,Yes,Rock,No,2,4,Improve
+80,Yes,Classical,No,7,3,Improve
+22,No,Pop,Yes,8,7,Improve
+56,No,Jazz,Yes,0,0,'No effect'
+20,Yes,Pop,No,8,6,Improve
+15,Yes,'Video game music',Yes,4,2,Improve
+67,No,Rock,No,3,2,?
+57,Yes,Gospel,No,6,4,Improve
+22,Yes,Pop,Yes,8,8,Improve
+17,Yes,Pop,Yes,5,5,Improve
+19,Yes,Rock,No,10,8,'No effect'
+50,No,Rock,No,0,0,Improve
+24,Yes,Rock,Yes,8,8,Improve
+67,No,Rock,Yes,8,2,'No effect'
+18,Yes,Metal,Yes,7,8,Improve
+20,Yes,Country,No,0,2,Improve
+15,Yes,Pop,Yes,3,5,Improve
+17,Yes,Pop,Yes,5,2,Improve
+32,Yes,Folk,Yes,6,1,Improve
+18,No,Rap,Yes,6,3,Improve
+18,Yes,Rock,Yes,5,6,Improve
+18,Yes,'K pop',Yes,8,4,Improve
+19,Yes,Pop,Yes,1,1,Improve
+18,No,Rock,Yes,8,3,Improve
+17,Yes,Rap,Yes,3,3,Improve
+34,Yes,Classical,No,0,0,'No effect'
+18,Yes,Pop,No,5,4,'No effect'
+18,Yes,R&B,Yes,2,4,Improve
+22,Yes,'Video game music',No,4,6,Improve
+18,Yes,Pop,Yes,5,7,Improve
+19,Yes,Rock,Yes,4,0,'No effect'
+25,Yes,Pop,Yes,10,8,'No effect'
+17,Yes,R&B,Yes,3,3,Improve
+25,Yes,Rock,Yes,8,7,Improve
+18,Yes,R&B,No,3,3,Improve
+21,Yes,'K pop',Yes,4,5,?
+24,Yes,Folk,Yes,10,10,Improve
+16,Yes,'K pop',No,10,2,Improve
+18,No,Metal,Yes,9,6,Improve
+18,Yes,R&B,Yes,6,4,Improve
+16,Yes,Pop,Yes,3,4,Improve
+68,Yes,Gospel,No,10,10,Improve
+16,Yes,'Video game music',Yes,4,8,'No effect'
+21,No,R&B,Yes,3,0,Improve
+53,Yes,R&B,Yes,1,0,Improve
+29,Yes,Classical,Yes,5,6,'No effect'
+18,Yes,'Video game music',Yes,7,0,'No effect'
+29,Yes,Pop,No,10,8,Improve
+18,Yes,R&B,Yes,3,0,Improve
+22,Yes,EDM,Yes,1,0,'No effect'
+19,Yes,Pop,No,6,6,Improve
+13,Yes,'Video game music',Yes,4,3,Improve
+26,No,Pop,No,6,4,Improve
+14,Yes,Rock,Yes,2,6,Worsen
+27,Yes,Pop,Yes,8,3,Improve
+26,No,Rock,No,8,10,'No effect'
+59,No,Rock,No,1,0,Improve
+30,Yes,Rock,Yes,8,6,Improve
+27,Yes,Pop,Yes,6,3,Improve
+18,No,Rap,Yes,2,0,Improve
+23,Yes,Metal,No,0,0,'No effect'
+18,Yes,Rock,Yes,10,10,Improve
+40,Yes,Rock,Yes,3,0,Improve
+24,Yes,Rock,Yes,7,9,Improve
+23,Yes,Classical,Yes,8,7,Improve
+56,Yes,R&B,No,2,0,Improve
+29,Yes,R&B,Yes,10,7,'No effect'
+16,Yes,Pop,No,6,0,Improve
+18,Yes,Gospel,Yes,3,0,Improve
+21,Yes,Lofi,Yes,6,5,Improve
+32,Yes,Rock,Yes,7,6,Improve
+22,Yes,Metal,Yes,10,7,Improve
+17,Yes,Latin,Yes,0,3,'No effect'
+18,Yes,EDM,Yes,0,2,Improve
+18,Yes,R&B,No,2,0,'No effect'
+24,Yes,Jazz,Yes,2,2,'No effect'
+21,No,Pop,No,5,6,'No effect'
+46,No,Rock,No,0,0,'No effect'
+18,Yes,'Hip hop',Yes,5,4,Improve
+16,Yes,'K pop',Yes,2,7,Improve
+21,Yes,'Video game music',Yes,0,6,Improve
+19,No,Classical,Yes,0,0,Improve
+20,Yes,Rap,Yes,7,5,Improve
+21,Yes,Folk,No,7,5,'No effect'
+56,Yes,Rock,No,3,3,'No effect'
+21,Yes,Rock,Yes,7,10,Worsen
+20,Yes,Pop,Yes,3,2,Improve
+21,Yes,Rock,No,5,1,Improve
+25,Yes,Rock,No,8,9,Improve
+33,Yes,Metal,Yes,4,8,Improve
+20,Yes,Rock,Yes,7,9,Improve
+17,Yes,Rock,Yes,1,5,'No effect'
+24,No,Jazz,Yes,3,2,'No effect'
+26,Yes,Jazz,Yes,6,8,Improve
+17,Yes,Rock,No,6,3,Improve
+16,Yes,Metal,Yes,7,4,Improve
+27,Yes,Metal,Yes,2,6,'No effect'
+28,Yes,'Hip hop',Yes,8,5,Improve
+48,Yes,Rock,Yes,3,3,Improve
+19,Yes,Rap,No,7,5,Improve
+21,Yes,Rock,Yes,4,8,Improve
+21,Yes,Classical,No,3,0,Improve
+15,Yes,Metal,Yes,10,7,Improve
+20,No,Rock,Yes,10,4,Improve
+21,Yes,'Video game music',No,2,2,Improve
+22,Yes,Folk,Yes,8,7,Improve
+22,No,Rock,No,10,5,Improve
+31,Yes,Rock,Yes,9,10,'No effect'
+20,Yes,Metal,Yes,5,2,Improve
+49,Yes,Classical,No,4,8,Improve
+42,Yes,Metal,Yes,7,8,Improve
+26,Yes,EDM,Yes,2,2,'No effect'
+17,Yes,'K pop',Yes,10,3,Improve
+30,No,Metal,No,10,10,Improve
+23,Yes,Folk,Yes,3,7,'No effect'
+30,Yes,EDM,Yes,7,5,Improve
+31,Yes,Metal,No,7,4,Improve
+42,No,Classical,Yes,7,9,Improve
+16,Yes,EDM,Yes,4,7,Improve
+34,No,Metal,Yes,5,9,Improve
+21,Yes,Pop,Yes,5,4,'No effect'
+27,Yes,Pop,No,7,2,Improve
+18,Yes,Folk,Yes,8,6,Improve
+26,No,Metal,Yes,1,3,'No effect'
+37,Yes,Rock,Yes,8,10,Worsen
+26,Yes,Folk,Yes,4,7,'No effect'
+19,No,Pop,No,9,6,'No effect'
+22,Yes,Rock,Yes,10,7,Improve
+43,No,Rock,No,1,2,'No effect'
+24,Yes,Rock,Yes,7,10,Improve
+21,No,Pop,No,10,2,Worsen
+28,Yes,Rock,No,2,1,Improve
+23,Yes,R&B,Yes,3,10,'No effect'
+20,No,Rock,Yes,7,10,Improve
+17,Yes,Metal,No,4,2,Improve
+19,Yes,R&B,No,4,2,Improve
+32,Yes,Metal,Yes,6,8,Improve
+18,No,Folk,Yes,8,6,Improve
+20,Yes,Rock,Yes,2,2,'No effect'
+27,Yes,Rock,Yes,8,7,Improve
+15,Yes,Rock,No,4,3,'No effect'
+26,Yes,Rock,Yes,6,1,'No effect'
+24,Yes,Pop,Yes,6,6,Improve
+20,Yes,'K pop',Yes,8,7,'No effect'
+21,Yes,Pop,Yes,5,3,Improve
+16,Yes,'Video game music',No,6,2,Improve
+21,Yes,Metal,Yes,5,6,Improve
+27,Yes,Jazz,Yes,6,10,Improve
+17,Yes,Rock,Yes,7,3,Improve
+21,Yes,Classical,Yes,4,6,'No effect'
+17,Yes,Folk,Yes,9,4,Improve
+21,No,Rap,Yes,9,7,Improve
+17,No,Rock,Yes,5,10,'No effect'
+36,Yes,Country,No,1,0,Improve
+18,No,R&B,Yes,8,7,Improve
+18,No,'K pop',No,5,1,Improve
+18,Yes,Latin,Yes,10,6,Improve
+18,Yes,R&B,Yes,7,5,Improve
+18,Yes,'Hip hop',Yes,3,1,Improve
+18,Yes,Rap,Yes,5,8,Improve
+18,Yes,Classical,No,2,0,'No effect'
+18,No,Classical,No,7,0,'No effect'
+18,Yes,R&B,No,8,0,'No effect'
+20,Yes,R&B,Yes,4,1,Improve
+19,Yes,'Hip hop',Yes,3,8,Improve
+17,Yes,'Hip hop',Yes,7,0,Improve
+23,Yes,'Video game music',Yes,10,8,Improve
+18,Yes,Pop,Yes,7,1,Improve
+19,Yes,Pop,Yes,5,9,'No effect'
+89,Yes,Rap,No,0,0,'No effect'
+20,Yes,R&B,Yes,10,6,Improve
+16,No,Rock,Yes,7,3.5,Improve
+17,Yes,Country,Yes,2,0,Improve
+16,Yes,Metal,No,10,10,Improve
+20,Yes,Pop,No,8,9,Worsen
+30,Yes,Rock,Yes,9,7,Improve
+37,Yes,Folk,Yes,6,4,Improve
+44,No,Folk,No,8,5,Improve
+21,Yes,Metal,Yes,3,7,Improve
+19,Yes,Pop,Yes,9,1,Improve
+23,Yes,Rock,Yes,8,6,Improve
+26,No,Country,Yes,4,1,Improve
+18,Yes,'Video game music',Yes,6,5,'No effect'
+35,Yes,'Hip hop',Yes,7,8,Improve
+16,Yes,Rock,Yes,8,9,Improve
+19,Yes,Metal,Yes,8,6,Improve
+23,Yes,Rock,No,10,5,Improve
+17,Yes,Pop,Yes,5,2,'No effect'
+29,No,Country,Yes,9,3,'No effect'
+21,Yes,Pop,No,4,6,Improve
+17,No,Metal,Yes,9,8,Improve
+23,No,Rock,Yes,5,7,'No effect'
+17,Yes,Metal,Yes,8,3,'No effect'
+22,Yes,'Video game music',Yes,10,10,Improve
+17,Yes,'Hip hop',Yes,7,7,Improve
+19,Yes,Pop,Yes,10,8,Improve
+19,Yes,Pop,Yes,8,6,Improve
+16,Yes,Pop,Yes,10,7,Improve
+19,Yes,Pop,Yes,6,6,Improve
+13,Yes,'Video game music',Yes,10,10,Worsen
+18,Yes,EDM,Yes,9,8,Improve
+26,Yes,Metal,Yes,0,0,'No effect'
+14,Yes,Country,Yes,7,3,Improve
+21,No,Pop,Yes,6,2,Improve
+21,Yes,R&B,Yes,7,6,Improve
+17,Yes,Rock,Yes,7,6,Improve
+18,Yes,Pop,Yes,3,2,Improve
+19,Yes,Rap,Yes,2,2,Improve
+19,Yes,Classical,No,2,3,Improve
+29,Yes,'Hip hop',Yes,2,2,Improve

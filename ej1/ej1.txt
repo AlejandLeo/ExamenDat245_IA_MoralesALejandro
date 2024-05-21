@@ -1,0 +1,28 @@
+El DataSet "Music & Mental Health Survey Results":
+https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
+de la fuente Kaggle, el dataset recolecta datos relacionados a la
+musicoterapia y la relacion de la música y el estado de animo, estrés 
+y la salud mental.
+El tema del dataset es ver todas las relaciones musicales entre el 
+individuo y la música, el archivo "mxmh_survey_results.csv".
+El dataset recolecta, 33 categorias para los datos:
+Fecha, Edad, Servicio de Streaming Principal,etc
+
+Pero para un mejor manejo de los datos relize una selección en base a mi 
+criterio sobre "qué datos son mas relevantes",el archivo "mxmh_survey_results1.csv", entre ellos son:
+-Edad/Age, edad del individuo.
+-Servicio de Streaming Principal/Primary Streaming Service(De dónde escucha principalmente música).
+-Horas al día/Hours per day, cuanto tiempo escucha música por día.
+-Mientras Trabaja/While Working, escucha música mientras trabaja.
+-Instrumentalista/Instrumentalist, el individuo toca algún instrumento musical.
+-Compositor/Composer, el individuo compone música.
+-Género Favorito/Fav Genre, género musical favorito.
+-Explorador/Exploratory, el individuo explora escuchando nuevos artistas y géneros musicales.
+-Idiomas Extranjeros/Foreign languages, el individuo escucha música en otro idioma que no domine.
+-BPM, Bits Por Minuto
+-Ansiedad/Anxiety, nivel de sensación de ansiedad autoinformada del 0 al 10. 
+-Depresión/Depression, nivel de sensación de depresión autoinformada del 0 al 10.  
+-Insomnio/Insomnia, nivel de sensación de insomnio autoinformada del 0 al 10. 
+-TOC(Transtorno Obsesivo Compulsivo)/OCD(Obssesive compulsive disorder),nivel de 
+sensación de TOC autoinformada del 0 al 10. 
+-Efectos musicales/Music Effects, la música mejora,empeora o no cambia la salud mental del individuo.
